@@ -1,8 +1,0 @@
-# name = input("what is your name ?")
-# print("Hello", name)
-# print(len(name))
-# print(len(input("what is your name ?")))
-print("This is help your what should be your baby name😊")
-fatherName = input("What is your name ?")
-motherName = input("What is your partner name ?")
-print("Your baby name should be:", fatherName+ " "+ motherName)
