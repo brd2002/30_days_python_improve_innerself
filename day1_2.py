@@ -8,17 +8,18 @@
 # print("Your baby name should be:", fatherName+ " "+ motherName)
 # print("hello")
 # print(type(123))
-# print(type(123.12))
+# print(type(123.12))   
 # print(int("123")+int("123"))
 
 # print(type(True))
 # var1 = 10 / 3 ; 
 # print(round(var1, 2))
 # print(int(var1))
+
 #  project 2 
 print("Welcome to the tip calculator")
 bill = float(input("What was the total bill ?"))
 tip = int(input("What percentage tip would you like to give ? 10, 12 or 15 ?"))
 people = int(input("How many people to split the bill ?"))
 total = bill + (bill * tip / 100)
-print(f"Each person should pay: {round(total/people, 2)}")
+print(f"Each person should pay: { round(total/people, 2) }")
